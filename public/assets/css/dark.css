@@ -135,7 +135,7 @@ p {
   font-weight: 700;
 }
 .section-title h2 span {
-  color: #716fff;
+  color: #89838D;
 }
 .section-title .ligh-title {
   margin: auto;
@@ -191,25 +191,25 @@ p {
   opacity: 0.7;
 }
 .ms-ellipsis div:nth-child(1) {
-  background: #716fff;
+  background: #89838D;
   left: 8px;
   -webkit-animation: lds-ellipsis1 0.6s infinite;
           animation: lds-ellipsis1 0.6s infinite;
 }
 .ms-ellipsis div:nth-child(2) {
-  background: #ff6f91;
+  background: #BD8970;
   left: 8px;
   -webkit-animation: lds-ellipsis2 0.6s infinite;
           animation: lds-ellipsis2 0.6s infinite;
 }
 .ms-ellipsis div:nth-child(3) {
-  background: #716fff;
+  background: #89838D;
   left: 32px;
   -webkit-animation: lds-ellipsis2 0.6s infinite;
           animation: lds-ellipsis2 0.6s infinite;
 }
 .ms-ellipsis div:nth-child(4) {
-  background: #ff6f91;
+  background: #BD8970;
   left: 56px;
   -webkit-animation: lds-ellipsis3 0.6s infinite;
           animation: lds-ellipsis3 0.6s infinite;
@@ -408,7 +408,7 @@ header nav a {
   position: fixed;
   top: 50px;
   right: 50px;
-  background: #202337;
+  background: #000;
   border-radius: 15px;
   cursor: pointer;
   opacity: 0.7;
@@ -617,7 +617,7 @@ header nav a:hover .svg_img {
   content: "";
   width: 105px;
   height: 7px;
-  background-color: #ff6f91;
+  background-color: #BD8970;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -927,7 +927,7 @@ header nav a:hover .svg_img {
   stroke: #333754 !important;
 }
 .ms-about .ms-box .progress .fill {
-  stroke: #716fff;
+  stroke: #89838D;
 }
 .ms-about .ms-box .progress .fill {
   stroke-dasharray: 219.9907836914;
@@ -937,16 +937,16 @@ header nav a:hover .svg_img {
   stroke-width: 10;
 }
 .ms-about .ms-box .progress .value {
-  fill: #716fff;
+  fill: #89838D;
   font-size: 20px;
   text-anchor: middle;
   font-weight: 600;
 }
 .ms-about .ms-box .progress.active .fill {
-  stroke: #ff6f91;
+  stroke: #BD8970;
 }
 .ms-about .ms-box .progress.active .value {
-  fill: #ff6f91;
+  fill: #BD8970;
 }
 
 /*===== Clients css =====*/
@@ -1171,7 +1171,7 @@ header nav a:hover .svg_img {
   color: #a5a3b3;
 }
 .achive .count-block .active-num {
-  color: #716fff;
+  color: #89838D;
 }
 .achive .count-block p {
   margin: 0;
@@ -1230,7 +1230,7 @@ header nav a:hover .svg_img {
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 .ms-experience .timeline li:hover .timeline-info span {
-  background: #ff6f91;
+  background: #BD8970;
   color: #fff;
 }
 
@@ -1247,7 +1247,7 @@ header nav a:hover .svg_img {
 
 .timeline-content .timeline-title {
   margin-top: 15px;
-  color: #ff6f91;
+  color: #BD8970;
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
@@ -1330,7 +1330,7 @@ header nav a:hover .svg_img {
   color: #999;
 }
 .ms-news .news-info .detail label a:hover {
-  color: #716fff;
+  color: #89838D;
 }
 .ms-news .news-info .detail h3 {
   margin: 10px 0 15px 0;
@@ -1354,7 +1354,7 @@ header nav a:hover .svg_img {
 .ms-news .news-info .detail .more-info a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #ff6f91;
+  color: #BD8970;
   text-align: center;
   font-size: 13px;
   text-decoration: none;
@@ -1362,7 +1362,7 @@ header nav a:hover .svg_img {
   position: relative;
 }
 .ms-news .news-info .detail .more-info a:hover {
-  color: #716fff;
+  color: #89838D;
 }
 .ms-news .news-info .detail .more-info a:hover:after {
   right: -50px;
@@ -1408,11 +1408,11 @@ header nav a:hover .svg_img {
   line-height: 11px;
 }
 .portfolio-tabs ul li:hover {
-  color: #716fff;
+  color: #89838D;
 }
 
 li.mixitup-control-active {
-  color: #ff6f91 !important;
+  color: #BD8970 !important;
 }
 
 .portfolio-img img {
@@ -1453,13 +1453,13 @@ li.mixitup-control-active {
   font-weight: 300;
 }
 .ms-project-box a:hover {
-  color: #716fff;
+  color: #89838D;
 }
 .ms-project-box p {
   font-size: 14px;
 }
 .ms-project-box p a {
-  color: #ff6f91;
+  color: #BD8970;
 }
 .ms-project-box .ms-info {
   margin-top: 30px;
@@ -1553,7 +1553,7 @@ li.mixitup-control-active {
 }
 .ms-project-box a.info:hover {
   background-color: #fff;
-  color: #716fff;
+  color: #89838D;
 }
 .ms-project-box a.info {
   -webkit-transform: scale(0.7);
@@ -1575,7 +1575,7 @@ li.mixitup-control-active {
 }
 
 .fancybox-progress {
-  background: #716fff;
+  background: #89838D;
 }
 
 /** End Portfolio Section **/
@@ -1673,7 +1673,7 @@ li.mixitup-control-active {
   display: block;
   top: 0;
   left: 0;
-  background-color: #716fff;
+  background-color: #89838D;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.08);
   display: -webkit-box;
@@ -1724,7 +1724,7 @@ li.mixitup-control-active {
   position: relative;
 }
 .flipper .content-wrap .svg_img path {
-  fill: #716fff;
+  fill: #89838D;
 }
 
 @-webkit-keyframes morphing-image {
@@ -1912,7 +1912,7 @@ li.mixitup-control-active {
   transition: all 0.5s ease 0s;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  background-color: #202337;
+  background-color: #2C2321;
   -webkit-box-shadow: none;
           box-shadow: none;
   overflow: auto;
@@ -1962,7 +1962,7 @@ li.mixitup-control-active {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 35px;
-  color: #ff6f91;
+  color: #BD8970;
 }
 .ms-sidebar ul li {
   -webkit-transition: all 0.3s ease-in-out;
@@ -1985,7 +1985,7 @@ li.mixitup-control-active {
   position: relative;
 }
 .ms-sidebar ul li a:hover {
-  color: #ff6f91;
+  color: #BD8970;
 }
 .ms-sidebar ul li a:after {
   -webkit-transition: all 0.3s ease-in-out;
@@ -1999,15 +1999,15 @@ li.mixitup-control-active {
   background-color: #fff;
 }
 .ms-sidebar ul li a:focus {
-  color: #716fff;
+  color: #89838D;
 }
 .ms-sidebar ul li.active a {
   padding-left: 40px !important;
-  color: #716fff;
+  color: #89838D;
   font-size: 25px;
 }
 .ms-sidebar ul li.active a:hover {
-  color: #ff6f91;
+  color: #BD8970;
 }
 .ms-sidebar ul li.active a:after {
   width: 25px;
@@ -2034,10 +2034,10 @@ footer .ms-footer-detail {
 footer .ms-footer-detail a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #ff6f91;
+  color: #BD8970;
 }
 footer .ms-footer-detail a:hover {
-  color: #716fff;
+  color: #89838D;
 }
 footer .ms-footer-detail .ms-social ul {
   margin: 0;
@@ -2061,12 +2061,12 @@ footer .ms-footer-detail .ms-social ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #ff6f91;
+  background: #BD8970;
   color: #fff;
   border-radius: 30px;
 }
 footer .ms-footer-detail .ms-social ul li a:hover {
-  background: #716fff;
+  background: #89838D;
 }
 
 /*===== Whatsapp direct chat css =====*/
@@ -2338,7 +2338,7 @@ footer .ms-footer-detail .ms-social ul li a:hover {
   text-align: center;
   line-height: 46px;
   font-size: 24px;
-  color: #ff6f91;
+  color: #BD8970;
   left: 0;
   top: 0;
   height: 46px;
@@ -2380,7 +2380,7 @@ footer .ms-footer-detail .ms-social ul li a:hover {
   fill: none;
 }
 .progress-wrap svg.progress-circle path {
-  stroke: #ff6f91;
+  stroke: #BD8970;
   stroke-width: 4;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
