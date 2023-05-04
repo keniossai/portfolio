@@ -25,7 +25,7 @@
                     </div>
                     <div class="ms-hero-img">
                         <div class="ms-card" data-tilt>
-                            <img src="{{ asset('assets') }}/img/hero/IMG_3216i.jpg" alt="vasantbhai">
+                            <img src="{{ asset('frontend') }}/img/hero/IMG_3216i.jpg" alt="vasantbhai">
                         </div>
                     </div>
                     <div class="ms-hero-name">

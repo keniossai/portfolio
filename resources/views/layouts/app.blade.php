@@ -21,20 +21,20 @@ Copyright 2023
     <meta name="author" content="kenossai">
     <meta name="generator" content="Ken Ossai v2.12.1, kenossai.com">
     <!-- site Favicon -->
-    <link rel="icon" href="{{ asset('assets') }}/img/favicon/favicon.ico" sizes="32x32">
-    <link rel="apple-touch-icon" href="{{ asset('assets') }}/img/favicon/favicon.ico">
-    <meta name="msapplication-TileImage" content="{{ asset('assets') }}/img/favicon/favicon.ico">
+    <link rel="icon" href="{{ asset('frontend') }}/img/favicon/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{ asset('frontend') }}/img/favicon/favicon.ico">
+    <meta name="msapplication-TileImage" content="{{ asset('frontend') }}/img/favicon/favicon.ico">
 
     <!-- css Font -->
 
     <!-- css All Plugins Files -->
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/plugins/bootstrap.css">
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/plugins/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/plugins/slick.min.css">
+    <link rel="stylesheet" href="{{ asset('frontend') }}/css/plugins/bootstrap.css">
+    <link rel="stylesheet" href="{{ asset('frontend') }}/css/plugins/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="{{ asset('frontend') }}/css/plugins/slick.min.css">
 
     <!-- Main Style -->
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/dark.css">
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('frontend') }}/css/dark.css">
+    <link rel="stylesheet" href="{{ asset('frontend') }}/css/responsive.css">
 
     <script src="https://use.fontawesome.com/79d3039a9c.js"></script>
 
@@ -59,7 +59,7 @@ Copyright 2023
     <!-- Header Start -->
     <header>
         <nav>
-            <a href="javascript:void(0)" class="ms-sidebar-toggle"><img src="assets/img/icons/menu.svg" class="svg_img"
+            <a href="javascript:void(0)" class="ms-sidebar-toggle"><img src="frontend/img/icons/menu.svg" class="svg_img"
                     alt="menu"></a>
         </nav>
     </header>
@@ -72,10 +72,10 @@ Copyright 2023
             <a href="javascript:void(0)" class="close-sidebar">×</a>
             <ul class="navbar-nav mb-2 ml-auto" id="top-menu">
                 <li class="nav-item active">
-                    <a class="nav-link ms-nav" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link ms-nav" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ms-nav" href="#about">About</a>
+                    <a class="nav-link ms-nav" href="about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link ms-nav" href="#experience">Experience</a>
@@ -142,7 +142,7 @@ Copyright 2023
                             <div class="d-flex bd-highlight">
                                 <!-- Profile Picture -->
                                 <div class="ms-img-cont">
-                                    <img src="assets/img/chat/icon.jpg" class="ms-user-img" alt="Profile image">
+                                    <img src="frontend/img/chat/icon.jpg" class="ms-user-img" alt="Profile image">
                                     <span class="ms-status-icon ms-online"></span>
                                 </div>
                                 <!-- Display Name & Last Seen -->
@@ -173,19 +173,19 @@ Copyright 2023
 
 
     <!-- Vendor JS -->
-    <script src="{{ asset('assets') }}/js/vendor/jquery-3.1.1.min.js"></script>
-    <script src="{{ asset('assets') }}/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('assets') }}/js/vendor/tilt.jquery.js"></script>
-    <script src="{{ asset('assets') }}/js/vendor/mixitup.min.js"></script>
-    <script src="{{ asset('assets') }}/js/vendor/jquery.fancybox.min.js"></script>
-    <script src="{{ asset('assets') }}/js/vendor/slick.min.js"></script>
-    <script src="{{ asset('assets') }}/js/vendor/fontawesome.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/tilt.jquery.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/mixitup.min.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/jquery.fancybox.min.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/slick.min.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/fontawesome.js"></script>
 
     <!-- Scroll button animation for mouse hover Js -->
-    <script src="{{ asset('assets') }}/js/vendor/tweenmax.min.js"></script>
+    <script src="{{ asset('frontend') }}/js/vendor/tweenmax.min.js"></script>
 
     <!-- Site Main Js -->
-    <script src="{{ asset('assets') }}/js/script.js"></script>
+    <script src="{{ asset('frontend') }}/js/script.js"></script>
 
 </body>
 
