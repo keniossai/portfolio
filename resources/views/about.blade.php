@@ -302,46 +302,12 @@
                                         <li class="filter" data-filter="all">ALL</li>
                                         <li class="filter" data-filter=".design">DESIGN</li>
                                         <li class="filter" data-filter=".development">DEVELOPMENT</li>
-                                        <li class="filter" data-filter=".graphics">GRAPHICS</li>
-                                        <li class="filter" data-filter=".templates">Templates</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12">
                                 <div class="portfolio-content-items">
                                     <div class="row m-b-minus-30px">
-                                        <div class="col-lg-6 mix graphics templates">
-                                            <div class="ms-project-box">
-                                                <h3>BonzaMart - Super market</h3>
-                                                <div class="links">
-                                                    <a href="#">3D Graphics</a> |
-                                                    <a href="#">Templates</a>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. It has been the industry's standard ever since the 1500s.
-                                                    <a href="#">Read more</a>
-                                                </p>
-                                                <div class="ms-info">
-                                                    <div class="portfolio-img">
-                                                        <a class="" data-fancybox="gallery"
-                                                            href="assets/img/portfolio/1.jpg"
-                                                            style="background-image: url(assets/img/portfolio/11.jpg)">
-                                                            <span class="overlay">+</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="ms-detail">
-                                                        <ul>
-                                                            <li>Date : 1, Jan - 2023</li>
-                                                            <li>Client : Symphony</li>
-                                                            <li>Tech : Angular, Nodejs, Ios</li>
-                                                            <li>Type : eCommerce</li>
-                                                            <li>URL : <a href="#">www.your-project-url.com</a></li>
-                                                        </ul>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="col-lg-6 mix design">
                                             <div class="ms-project-box">
                                                 <h3>ShowMania - Entertainment</h3>
