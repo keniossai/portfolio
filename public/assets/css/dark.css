@@ -74,7 +74,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-color:  #2C2321;
+  background-color:  #211D18;
   overflow-x: hidden;
   background-blend-mode: overlay;
 }
@@ -145,7 +145,7 @@ p {
   right: 0;
   font-size: 130px;
   font-weight: 700;
-  color: #202337;
+  color: #362E29;
   line-height: 60px;
   text-shadow: 5px -5px 10px #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   opacity: 0.12;
@@ -857,7 +857,7 @@ header nav a:hover .svg_img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #202337;
+  background: #362E29;
   border-radius: 15px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
@@ -997,7 +997,7 @@ header nav a:hover .svg_img {
   border-radius: 15px;
   font-size: 15px;
   color: #a5a3b3;
-  background-color: #202337;
+  background-color: #362E29;
 }
 .ms-contact form .form-group input:focus,
 .ms-contact form .form-group textarea:focus {
@@ -1033,7 +1033,7 @@ header nav a:hover .svg_img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #202337;
+  background: #362E29;
   border-radius: 15px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
@@ -1121,7 +1121,7 @@ header nav a:hover .svg_img {
   width: 100%;
   margin: 12px 0;
   padding: 30px 15px;
-  background: #202337;
+  background: #362E29;
   border-radius: 15px;
   position: relative;
   overflow: hidden;
@@ -1211,7 +1211,7 @@ header nav a:hover .svg_img {
   border-radius: 15px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-  background: #202337;
+  background: #362E29;
 }
 .ms-experience .timeline li:last-child {
   margin: 0;
@@ -1224,7 +1224,7 @@ header nav a:hover .svg_img {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 10px 15px;
-  background: #252940;
+  background: #362E29;
   border-radius: 30px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
@@ -1280,7 +1280,7 @@ header nav a:hover .svg_img {
   width: 100%;
   margin-bottom: 30px;
   padding: 24px;
-  background: #202337;
+  background: #362E29;
   border-radius: 15px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.06);
@@ -1433,7 +1433,7 @@ li.mixitup-control-active {
   position: relative;
   cursor: default;
   border-radius: 15px;
-  background: #202337;
+  background: #362E29;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -1618,7 +1618,7 @@ li.mixitup-control-active {
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
   background-color: transparent;
-  background: #202337;
+  background: #362E29;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
   position: relative;
@@ -2016,7 +2016,7 @@ li.mixitup-control-active {
 /* End Sidebar */
 /*===== Footer css =====*/
 footer {
-  background: #202337;
+  background: #362E29;
 }
 footer .ms-footer-detail {
   height: 100px;
@@ -2206,7 +2206,7 @@ footer .ms-footer-detail .ms-social ul li a:hover {
   list-style-type: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #202337;
+  background-color: #362E29;
 }
 .ms-style .ms-body li:not(:last-child) {
   border-bottom: 1px solid #2c2f42;

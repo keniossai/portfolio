@@ -1,9 +1,8 @@
 <!--=========================================================
-Item Name: Masterly - Personal Portfolio One Page HTML Template.
-Author: ashishmaraviya
+Item Name: Kenneth - Personal Portfolio SPA Page.
+Author: Kenneth Ossai
 Version: 2
 Copyright 2023
-Author URI: https://themeforest.net/user/ashishmaraviya
 ============================================================-->
 <!DOCTYPE html>
 <html lang="en">
@@ -17,10 +16,10 @@ Author URI: https://themeforest.net/user/ashishmaraviya
 
     <title>{{ config('app.name', 'Ken-Ossai') }}</title>
     <meta name="keywords"
-        content="personal portfolio, cv, resume, agency, bootstrap, clean, cv, designer, developer, freelancer, modern, one page portfolio, onepage, personal portfolio, responsive, resume, vcard">
-    <meta name="description" content="Unique Personal Portfolio HTML Template">
-    <meta name="author" content="ashishmaraviya">
-    <meta name="generator" content="Mobirise v3.12.1, mobirise.com">
+        content="Ken personal portfolio, designer, developer, freelancer, SPA application">
+    <meta name="description" content="Kenneth Ossai Personal Portfolio">
+    <meta name="author" content="kenossai">
+    <meta name="generator" content="Ken Ossai v2.12.1, kenossai.com">
     <!-- site Favicon -->
     <link rel="icon" href="assets/img/favicon/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" href="assets/img/favicon/favicon.png">
@@ -36,6 +35,8 @@ Author URI: https://themeforest.net/user/ashishmaraviya
     <!-- Main Style -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/dark.css">
     <link rel="stylesheet" href="{{ asset('assets') }}/css/responsive.css">
+
+    <script src="https://use.fontawesome.com/79d3039a9c.js"></script>
 
 </head>
 
@@ -103,18 +104,17 @@ Author URI: https://themeforest.net/user/ashishmaraviya
         <div class="container">
             <div class="ms-footer-detail">
                 <div class="ms-copy">
-                    Copyright © <a class="site-name" href="index.html">Masterly</a> all rights reserved. Powered by
-                    Masterly
+                    Copyright © <script>document.write(new Date().getFullYear());</script><a class="site-name" href="/"> Ken Ossai</a>
                 </div>
                 <div class="ms-social">
                     <ul>
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                        <li><a href="https://github.com/keniossai" target="_blank"><i class="fa fa-github"
                                     aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                        <li><a href="https://www.instagram.com/keniossai" target="_blank"><i class="fa fa-instagram"
                                     aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                        <li><a href="https://twitter.com/keniossai" target="_blank"><i class="fa fa-twitter"
                                     aria-hidden="true"></i></a></li>
-                        <li><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                        <li><a href="https://www.linkedin.com/in/kenneth-ossai/" target="_blank"><i class="fa fa-linkedin"
                                     aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
@@ -130,44 +130,25 @@ Author URI: https://themeforest.net/user/ashishmaraviya
             <!-- Panel Header -->
             <div class="ms-header">
                 <strong>Need Help?</strong>
-                <p>Chat with us on WhatsApp</p>
+                <p>Chat with me on WhatsApp</p>
             </div>
             <!-- Panel Content -->
             <div class="ms-body">
                 <ul>
                     <!-- Start Single Contact List -->
                     <li>
-                        <a class="ms-list" data-number="918866774266"
-                            data-message="Share me your latest resume, HR from masterly...">
+                        <a class="ms-list" data-number="2349090066687"
+                            data-message="Hello Ken, I have a project to work on.. Are you available?">
                             <div class="d-flex bd-highlight">
                                 <!-- Profile Picture -->
                                 <div class="ms-img-cont">
-                                    <img src="assets/img/chat/profile_02.jpg" class="ms-user-img" alt="Profile image">
-                                    <span class="ms-status-icon"></span>
-                                </div>
-                                <!-- Display Name & Last Seen -->
-                                <div class="ms-user-info">
-                                    <span>Maria W Ilvor</span>
-                                    <p>Maria left 7 mins ago</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <!--/ End Single Contact List -->
-                    <!-- Start Single Contact List -->
-                    <li>
-                        <a class="ms-list" data-number="918866774266"
-                            data-message="Share me your latest resume, HR from masterly...">
-                            <div class="d-flex bd-highlight">
-                                <!-- Profile Picture -->
-                                <div class="ms-img-cont">
-                                    <img src="assets/img/chat/profile_01.jpg" class="ms-user-img" alt="Profile image">
+                                    <img src="assets/img/chat/icon.jpg" class="ms-user-img" alt="Profile image">
                                     <span class="ms-status-icon ms-online"></span>
                                 </div>
                                 <!-- Display Name & Last Seen -->
                                 <div class="ms-user-info">
-                                    <span>William Ilvor</span>
-                                    <p>William is online</p>
+                                    <span>Ken Ossai</span>
+                                    <p>Available</p>
                                 </div>
                             </div>
                         </a>

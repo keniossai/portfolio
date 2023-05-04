@@ -285,16 +285,16 @@
 
     /* Back to top */
     $(document).ready(function(){"use strict";
-	
+
 		//Scroll back to top
-		
+
 		var progressPath = document.querySelector('.progress-wrap path');
 		var pathLength = progressPath.getTotalLength();
 		progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
 		progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
 		progressPath.style.strokeDashoffset = pathLength;
 		progressPath.getBoundingClientRect();
-		progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';		
+		progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
 		var updateProgress = function () {
 			var scroll = $(window).scrollTop();
 			var height = $(document).height() - $(window).height();
@@ -302,7 +302,7 @@
 			progressPath.style.strokeDashoffset = progress;
 		}
 		updateProgress();
-		$(window).scroll(updateProgress);	
+		$(window).scroll(updateProgress);
 		var offset = 50;
 		var duration = 550;
 		jQuery(window).on('scroll', function() {
@@ -311,7 +311,7 @@
 			} else {
 				jQuery('.progress-wrap').removeClass('active-progress');
 			}
-		});				
+		});
 		jQuery('.progress-wrap').on('click', function(event) {
 			event.preventDefault();
 			jQuery('html, body').animate({scrollTop: 0}, duration);
@@ -331,11 +331,11 @@
         //checking for device type
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
             // redirect link for mobile WhatsApp chat awc
-            window.open('https://wa.me/' + number + '/?text=' + message, '-blank');
+            window.open('https://wa.link/yr4l8g' + number + '/?text=' + message, '-blank');
         }
         else {
             // redirect link for WhatsApp chat in website
-            window.open('https://web.WhatsApp.com/send?phone=' + number + '&text=' + message, '-blank');
+            window.open('https://wa.link/yr4l8g' + number + '&text=' + message, '-blank');
         }
     })
 
@@ -415,5 +415,5 @@
           clicks = 0;
       });
   };
-  
+
 })(jQuery);
