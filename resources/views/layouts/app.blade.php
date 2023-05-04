@@ -21,9 +21,9 @@ Copyright 2023
     <meta name="author" content="kenossai">
     <meta name="generator" content="Ken Ossai v2.12.1, kenossai.com">
     <!-- site Favicon -->
-    <link rel="icon" href="assets/img/favicon/favicon.png" sizes="32x32">
-    <link rel="apple-touch-icon" href="assets/img/favicon/favicon.png">
-    <meta name="msapplication-TileImage" content="assets/img/favicon/favicon.png">
+    <link rel="icon" href="{{ asset('assets') }}/img/favicon/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{ asset('assets') }}/img/favicon/favicon.ico">
+    <meta name="msapplication-TileImage" content="{{ asset('assets') }}/img/favicon/favicon.ico">
 
     <!-- css Font -->
 

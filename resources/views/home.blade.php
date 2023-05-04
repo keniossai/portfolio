@@ -39,47 +39,5 @@
 
     </section>
     <!-- Hero End -->
-    <section class="ms-client padding-tb-80">
-        <h2 class="d-none">Clients</h2>
-        <div class="container">
-            <div class="row">
-                <div class="ms-client-outer">
-                    <ul id="ms-client-slider">
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/1-d.jpg"></a></div>
-                        </li>
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/2-d.jpg"></a></div>
-                        </li>
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/3-d.jpg"></a></div>
-                        </li>
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/4-d.jpg"></a></div>
-                        </li>
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/5-d.jpg"></a></div>
-                        </li>
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/6-d.jpg"></a></div>
-                        </li>
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/7-d.jpg"></a></div>
-                        </li>
-                        <li class="ms-client-item" data-animation="zoomIn">
-                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
-                                        src="assets/img/clients/8-d.jpg"></a></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+
 @endsection
