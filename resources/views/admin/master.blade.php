@@ -48,9 +48,12 @@
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
-            @yield('content')
+            <div class="main-content">
+                @yield('content')
+
+                @include('admin.body.footer')
+            </div>
             <!-- end main content-->
-            @include('admin.body.footer')
         </div>
         <!-- END layout-wrapper -->
 
