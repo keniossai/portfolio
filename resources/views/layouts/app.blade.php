@@ -142,7 +142,7 @@ Copyright 2023
                             <div class="d-flex bd-highlight">
                                 <!-- Profile Picture -->
                                 <div class="ms-img-cont">
-                                    <img src="frontend/img/chat/icon.jpg" class="ms-user-img" alt="Profile image">
+                                    <img src="{{ asset('frontend') }}/img/chat/icon.jpg" class="ms-user-img" alt="Profile image">
                                     <span class="ms-status-icon ms-online"></span>
                                 </div>
                                 <!-- Display Name & Last Seen -->
