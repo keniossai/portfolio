@@ -51,7 +51,7 @@
                 <div class="dropdown-menu dropdown-menu-end">
                     <!-- item-->
                     <a class="dropdown-item" href="profile"><i class="ri-user-line align-middle me-1"></i> Profile</a>
-                    <a class="dropdown-item d-block" href="#"><i class="ri-settings-2-line align-middle me-1"></i> Settings</a>
+                    <a class="dropdown-item d-block" href="{{ route('change.password') }}"><i class="ri-settings-2-line align-middle me-1"></i> Settings</a>
                     <a class="dropdown-item" href="#"><i class="ri-lock-unlock-line align-middle me-1"></i> Lock screen</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item text-danger" href="{{ route('admin.logout') }}">{{ __('Log Out') }}</a>

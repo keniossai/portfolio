@@ -40,7 +40,7 @@
                                 <div class="row mb-3">
                                     <label for="example-text-input" class=" col-form-label"> </label>
                                     <div class="col-sm-12">
-                                        <img id="showImage" class="rounded avatar-xl" src="assets/images/small/img-5.jpg" alt="Card image cap">
+                                        <img id="showImage" class="rounded avatar-xl" src="{{ (!empty($editData->profile_image))? url('upload/admin_images/'.$editData->profile_image):url('upload/profile.png')}}" alt="Card image cap">
                                     </div>
                                 </div>
 
