@@ -10,7 +10,13 @@
                         <div class="card-body">
 
                             <h4 class="card-title">Change Password</h4>
-                            <form action="{{ route('change.password') }}" method="POST">
+
+                            @if (count($errors))
+                                @foreach ($errors->all() as $error)
+                                    <p class="alert alert-danger alert-dismissible fade show" role="alert">{{ $error }}</p>
+                                @endforeach
+                            @endif
+                            <form action="{{ route('update.password') }}" method="POST">
                                 @csrf
                                 <div class="row mb-3">
                                     <label for="example-text-input" class="col-form-label">Old Password</label>

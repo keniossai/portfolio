@@ -142,43 +142,27 @@
         <script src="{{ asset('assets') }}/js/app.js"></script>
 
         <script>
-            $(document).ready(function() {
-                @if(Session::has('message'))
-                toastr.options =
-                {
-                "closeButton" : true,
-                "progressBar" : false
-                }
-                toastr.success("{{ session('message') }}");
-                @endif
+            @if(Session::has('message'))
+                var type = "{{ Session::get('alert-type', 'info') }}"
+                switch(type){
+                    case 'info':
+                    toastr.info("{{ Session::get('message') }}");
+                    break
 
-                @if(Session::has('error'))
-                toastr.options =
-                {
-                "closeButton" : true,
-                "progressBar" : false
-                }
-                toastr.error("{{ session('error') }}");
-                @endif
+                    case 'success':
+                    toastr.success("{{ Session::get('message') }}");
+                    break
 
-                @if(Session::has('info'))
-                toastr.options =
-                {
-                "closeButton" : true,
-                "progressBar" : true
-                }
-                toastr.info("{{ session('info') }}");
-                @endif
+                    case 'warning':
+                    toastr.warning("{{ Session::get('message') }}");
+                    break
 
-                @if(Session::has('warning'))
-                toastr.options =
-                {
-                "closeButton" : true,
-                "progressBar" : false
+                    case 'error':
+                    toastr.error("{{ Session::get('message') }}");
+                    break
                 }
-                toastr.warning("{{ session('warning') }}");
-                @endif
-            });
+
+            @endif
         </script>
 
     </body>
