@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -10,6 +11,10 @@ use Illuminate\Support\Facades\Route;
 Route::controller(FrontendController::class)->group(function(){
     Route::get('/', 'home')->name('home.page');
     Route::get('/about', 'about')->name('about.page');
+});
+
+Route::controller(PortfolioController::class)->group(function(){
+    Route::get('portfolio', );
 });
 
 Route::controller(AdminController::class)->group(function(){

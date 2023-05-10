@@ -173,9 +173,9 @@ Copyright 2023
 
 
     <!-- Vendor JS -->
-    <script src="{{ asset('frontend') }}/js/vendor/jquery-3.1.1.min.js"></script>
-    <script src="{{ asset('frontend') }}/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('frontend') }}/js/vendor/tilt.jquery.js"></script>
+    <script src="{{ asset('frontend/js/vendor/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/vendor/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/vendor/tilt.jquery.js') }}"></script>
     <script src="{{ asset('frontend') }}/js/vendor/mixitup.min.js"></script>
     <script src="{{ asset('frontend') }}/js/vendor/jquery.fancybox.min.js"></script>
     <script src="{{ asset('frontend') }}/js/vendor/slick.min.js"></script>
